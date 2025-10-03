@@ -1,6 +1,3 @@
-body{
-    background-color: #03045e;
-}
 @font-face {
     font-family: "Engebrechtre_Ex_Bd";
     src: url("font/Engebrechtre_Ex_Bd.otf") format("truetype");}
@@ -8,6 +5,11 @@ body{
     font-family:"Beckman-FREE";
     src: url("font/Beckman-FREE.otf") format("truetype");
 }
+
+body{
+    background-color: #03045e;
+}
+
 h1{
     padding: 20px;
     text-align: center;
@@ -28,54 +30,69 @@ h1{
     font-family: "Beckman-FREE";
     border-radius: 50px;
 }
-#amount_box{
+
+
+#amount_box, #to_currency_box{
     display: flex; 
     flex-direction: column;
     border: 1px solid black;
     border-radius: 5px;
     padding:10px;
     margin:30px;
-    text-align:center;
 }
-#amount_box label{
-    text-align: left;
-    font-size: 10px;
-    color:dimgray
-}
-#from_amount_div{
+
+#from_amount_div, #to_amount_div {
     display: flex;
-    align-items: left;
-}
-#from_unit{
-    display: inline-block;
-    font-size: 20px;
-    margin:10px;
-}
-#from_amount input{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    align-items: right;}
+
+
+#from_amount{
+    display:none property;
+    width: 70%;
     font-size: 20px;
     box-align:left;
     padding:5px;
     border:none;
     outline:none;
     background: transparent;
-    flex:1;
     appearance: none;
   -webkit-appearance: none;   /* Chrome/Safari */
-  -moz-appearance: textfield; /* Firefox */
 }
-
-
-
-#from_currency, #to_currency{
-    margin:10px;
+#result {
+    display:none property;
+    width: 70%;
+    font-size: 20px;
+    box-align:left;
     padding:5px;
-    border-radius: 5px;
-    border: 2px solid #dd2d4a;
+    border:none;
+    outline:none;
+    background: transparent;
+    appearance: none;
+  -webkit-appearance: none;   /* Chrome/Safari */
 }
+#symbol_and_unit_from{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    width: 30%;
+}
+#symbol_and_unit_to{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    width: 30%;
+}
+#from_unit,#to_unit{
+    display: inline-block;
+    width:60%;
+    font-size:25px;
+    font-family: "Beckman-FREE";
+    text-align: left;}
 
-#result{
-    display: flex; 
-    text-align: center;
-    font-size: 30px;
-    color: #03045e;
-}
+#from_unit_img, #to_unit_img{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: middle;}

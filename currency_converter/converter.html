@@ -15,8 +15,11 @@
             <div id="amount_box">
                 <label for="from_amount">AMOUNT: </label>
                 <div id="from_amount_div">
-                    <span id="from_unit">$</span>
                     <input type="number" name="from_amount" id="from_amount" step="0.01" required>
+                    <div id="symbol_and_unit_from">
+                    <span id="from_unit">USD</span>
+                    <span id="from_unit_img"><img src="img/dollar.png" alt="dollar" width="25px"></span>
+                    </div>
                 </div>
             </div>
         <br><br>
@@ -41,8 +44,18 @@
         </label><br><br>
         <label><input type="submit" value="convert"></label>
     </form>
-    <div id="result">
-        0.00
+    <div id="to_currency_box">
+        <p for="to_amount">BE CONVERTED TO: </p>
+                <div id="to_amount_div">
+                     <div id="result">
+                    
+                    </div>
+                    <div id="symbol_and_unit_to">
+                    <span id="to_unit">USD</span>
+                    <span id="to_unit_img"><img src="img/dollar.png" alt="dollar" width="25px"></span>
+                    </div>
+                </div>
+   
     </div>
     </div>
     <script src="converter_script.js" defer></script>
