@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="converter_style.css" rel="stylesheet">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h1>CURRENCY CONVERTER</h1>
+
+    <div id="converter_box">
+
+        <form id="currency_converter">
+            <div id="amount_box">
+                <label for="from_amount">AMOUNT: </label>
+                <div id="from_amount_div">
+                    <span id="from_unit">$</span>
+                    <input type="number" name="from_amount" id="from_amount" step="0.01" required>
+                </div>
+            </div>
+        <br><br>
+        <label for="from_currency">FROM: 
+            <select name="from_currency" id="from_currency">
+                <option value="USD">USD <img src="img/dollar.png"></option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="CNY">CNY</option>
+            </select>
+        </label><br><br>
+        <label for="to_currency">TO: 
+            <select name="to_currency" id="to_currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="CNY">CNY</option>
+            </select>
+        </label><br><br>
+        <label><input type="submit" value="convert"></label>
+    </form>
+    <div id="result">
+        0.00
+    </div>
+    </div>
+    <script src="converter_script.js" defer></script>
+</body>
+</html>

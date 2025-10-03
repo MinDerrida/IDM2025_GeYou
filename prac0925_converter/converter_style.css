@@ -1,0 +1,81 @@
+body{
+    background-color: #03045e;
+}
+@font-face {
+    font-family: "Engebrechtre_Ex_Bd";
+    src: url("font/Engebrechtre_Ex_Bd.otf") format("truetype");}
+@font-face {
+    font-family:"Beckman-FREE";
+    src: url("font/Beckman-FREE.otf") format("truetype");
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    color: #caf0f8;
+    font-family: "Engebrechtre_Ex_Bd";
+    font-size: 50px;
+    font-stretch: 80%;
+}
+
+#converter_box{
+    width: 350px;
+    margin:30px auto;
+    padding:5% 5%;
+    background-color: white;
+    text-align: left;
+    color: black;
+    font-size: 10px;
+    font-family: "Beckman-FREE";
+    border-radius: 50px;
+}
+#amount_box{
+    display: flex; 
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin:30px;
+    text-align:center;
+}
+#amount_box label{
+    text-align: left;
+    font-size: 10px;
+    color:dimgray
+}
+#from_amount_div{
+    display: flex;
+    align-items: left;
+}
+#from_unit{
+    display: inline-block;
+    font-size: 20px;
+    margin:10px;
+}
+#from_amount input{
+    font-size: 20px;
+    box-align:left;
+    padding:5px;
+    border:none;
+    outline:none;
+    background: transparent;
+    flex:1;
+    appearance: none;
+  -webkit-appearance: none;   /* Chrome/Safari */
+  -moz-appearance: textfield; /* Firefox */
+}
+
+
+
+#from_currency, #to_currency{
+    margin:10px;
+    padding:5px;
+    border-radius: 5px;
+    border: 2px solid #dd2d4a;
+}
+
+#result{
+    display: flex; 
+    text-align: center;
+    font-size: 30px;
+    color: #03045e;
+}
