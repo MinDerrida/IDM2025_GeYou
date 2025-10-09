@@ -1,0 +1,35 @@
+{
+    "latitude":52.54149,
+    "longitude":13.359375,
+    "generationtime_ms":0.0966787338256836,
+    "utc_offset_seconds":0,
+    "timezone":"GMT",
+    "timezone_abbreviation":"GMT",
+    "elevation":38.0,
+    
+    "current_units":{
+        "time":"iso8601",
+        "interval":"seconds",
+        "temperature_2m":"°C"
+        },
+
+    "current":{
+        "time":"2025-10-09T10:45",
+        "interval":900,
+        "temperature_2m":15.1
+        },
+    
+    "daily_units":{
+        "time":"iso8601",
+        "temperature_2m_max":"°C",
+        "temperature_2m_min":"°C",
+        "weather_code":"wmo code"
+        },
+
+    "daily":{
+        "time":["2025-10-02","2025-10-03","2025-10-04","2025-10-05","2025-10-06","2025-10-07","2025-10-08","2025-10-09","2025-10-10","2025-10-11","2025-10-12","2025-10-13","2025-10-14","2025-10-15"],
+        "temperature_2m_max":[15.7,15.1,12.5,14.3,15.4,13.9,14.4,15.3,15.3,16.4,14.5,16.1,15.7,16.0],
+        "temperature_2m_min":[9.5,7.8,8.4,9.6,9.8,8.9,13.1,10.9,11.9,10.0,9.3,9.1,7.6,8.3],
+        "weather_code":[3,3,63,53,80,53,53,51,51,3,51,3,2,3]
+        }
+}
