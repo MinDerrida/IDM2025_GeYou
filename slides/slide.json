@@ -1,0 +1,27 @@
+[
+    {
+        "imgUrl":"https://www.artic.edu/iiif/2/25c31d8d-21a4-9ea1-1d73-6a2eca4dda7e/full/843,/0/default.jpg",
+        "title": "The Bedroom",
+        "artist": "Vincent van Gogh"
+    },
+    {
+        "imgUrl":"https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+        "title": "A Sunday on La Grande Jatte",
+        "artist": "Georges Seurat"
+    },
+    {
+        "imgUrl":"https://www.artic.edu/iiif/2/2fa24f36-cc26-41b6-4b49-12bba2a6c1c8/full/843,/0/default.jpg",
+        "title": "Under the Wave off Kanagawa",
+        "artist": "Katsushika Hokusai"
+    },
+    {
+        "imgUrl":"https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
+        "title": "Stacks of Wheat (End of Summer)",
+        "artist": "Claude Monet"
+    },
+    {
+        "imgUrl":"https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
+        "title": "Arrival of the Normandy Train",
+        "artist": "Claude Monet"
+    }
+]
