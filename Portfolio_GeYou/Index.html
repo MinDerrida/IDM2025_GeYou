@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+    <title>Ge You - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Gideon+Roman&display=swap&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="bg-light"><img src="assets/img/bgLight.png" alt="background light decoration"></div>
+    
+<div class="loading">
+        <div id="intro-text">
+            <div id="stars">
+                <div><img src="assets/img/star1.svg" alt="star decoration image"></div>
+                <div><img src="assets/img/star2.svg" alt="star decoration image"></div>
+            </div>
+            <div>
+                <img src="assets/img/hr.svg" class="line" alt="horizontal line decoration">
+                <img src="assets/img/welcome.svg" id="welcome-text" alt="text content: welcome to my portfolio">
+                <img src="assets/img/hr.svg" class="line" alt="horizontal line decoration">
+            </div>
+        </div>
+        <div id="loading-bg"></div>
+    </div>
+
+    <div class="cursorLight"></div>
+<!--heropage navigation bar-->
+    <nav id="navBar">
+        <div id="heropage-nav" class="nav-option"><a href="#top">Home</a></div>
+        <div id="myworks-section-nav" class="nav-option"><a href="#myworks-section">Works</a></div>
+        <div id="about-section-nav" class="nav-option"><a href="#about-section">About</a></div>
+        <div id="contact-section-nav" class="nav-option"><a href="#contact-section">Contact</a></div>
+    </nav>
+
+<!--heropage main elements-->
+    <div id="heropage">
+
+    <!--background elements-->
+      <div id="heropage-content" class="direct">
+        <!--decorative elements-->
+        <div id="title-portfolio">
+            <img src="assets/img/portfolioFrame.svg" alt="text content : portfolio"></div>
+        <div id="bg-horse">
+            <img src="assets/img/bgHorse.png" alt="decorative: big blue horse">
+            <canvas id="horseCanvas"></canvas>
+        </div>
+        <!--"Ge You" name logo -->
+        <div id="name-logo">
+            <img src="assets/img/geyou_logo.svg" alt="Ge You name logo"></div>
+    </div>  
+    </div>
+
+    <div id="bg-top"><img src="assets/img/bg-top.png" alt="background decoration"></div>
+    <div id="bg-top-top"><img src="assets/img/bg-top-top.png" alt="background decoration"></div>
+
+
+<div id="myworks-section">
+
+<div id="blur-effect"></div>
+<!--floating window for work presentation-->
+    <div id="Presenting-window">
+        <p id="P-work-type"></p>
+        <h1 id="P-work-title"></h1>
+        <div id="P-skill-tag"></div>
+        <div id="P-work-item"></div>
+        <p id="description"></p>
+    </div>
+<!--myworks section main elements-->
+    <div id="myworks-section-content">
+        <div class="sub-section-title">
+            <img src="assets/img/myworks.svg" alt="text content: my works"></div>
+ 
+<!--showreel
+     <div id="showreel">
+                <video autoplay="" src="assets/works/showreel.mp4" width="1920" height="1080"></video>    
+    </div>  
+-->
+<!--filter buttons -->
+    <div id="filter-buttons">
+        <button type="button" class="F-button active" workFilter="all">All</button>
+        <button type="button" class="F-button" workFilter="MG">Motion Graphics</button>
+        <button type="button" class="F-button" workFilter="3D">3D Design</button>
+        <button type="button" class="F-button" workFilter="WD">Web Design</button>
+        <button type="button" class="F-button" workFilter="GD">Graphic Design</button>
+    </div>
+<!--work gallery-->
+        <div id="gallery">
+            <!--work items will be dynamically inserted here-->
+        </div>
+    </div>
+    
+
+</div> 
+
+
+<!--========about me section main elements=========-->
+    <div class="sub-section" id="about-section">
+     <!--sub-section title-->
+        <div class="sub-section-title">
+            <img src="assets/img/about.svg" alt="text: about me"></div>
+        
+    <!--about me personal profile-->
+        <div class="profile-pic">
+            <img src="assets/img/profile_pic.png" alt="profile picture">
+        </div>
+    
+    <!--about me text content-->
+        <div class="about-me-content"><P>Hi, I’m <em>Ge You</em>— a multidisciplinary designer with a background in <b>Interactive Digital Media (MSc)</b> and <b>English Studies (BA)</b>. My skills span 3D modeling, motion graphics, and front-end design. I’ve worked with IMAX China and Warner Chappell Music, contributing to digital campaigns, brand storytelling, and creative marketing projects. </p>
+        <p>I see design as problem-solving — figuring out how to make something beautiful, functional, and meaningful at the same time. I never stop learning, experimenting, or refining. Now I’m looking for job opportunities in digital media design or creative production, where I can use both my creative and technical background to craft meaningful audience experiences.</P></div>
+
+    <!--skillset text content-->
+        <div id="skillset-title"><img src="assets/img/skill-set.svg" alt="text:skill set"></div>
+        <div id="skillset" class="about-me-content">
+            <div>
+                <h3>1. Motion Design & Video Editing</h3>
+                <hr>
+                <p>Adobe After Effects, Adobe Premier Pro, Davinci Resolve Studio</p>
+            </div>
+            <div>
+                <h3>2. 2D & 3D Graphic Design</h3>
+                <hr>
+                <p>Blender, Adobe Illustrator, Adobe Photoshop</p>
+            </div>
+            <div>
+                <h3>3. Front-end development</h3>
+                <hr>
+                <p>HTML5, CSS, JavaScript</p>
+            </div>
+        </div>
+    </div>
+
+<!--===================contact me section main elements===========================-->
+    <div class="sub-section" id="contact-section">
+     <!--sub-section title-->
+        <div class="sub-section-title">
+            <img src="assets/img/contact.svg" alt="text content: contact"></div>
+    
+    <!--contact text content-->
+        <div class="contact-me-content"> 
+        <div id="contact-form">
+            <p>Let's get in touch!</p>
+            <form method="post">
+                <div>
+                    <label for="contact-name"></label>
+                    <input type="text" id="contact-name" name="name" required maxlength="30" placeholder=" Name"/>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required placeholder=" Email"/>
+                </div>
+                <div>
+                    <label for="message"></label>
+                    <textarea id="message" maxlength="500" placeholder=" Message" name="message"></textarea>
+                </div>
+                <div id="submit-part">
+                    <div>
+                        <button type="submit">Say Hi</button>
+                    </div>
+                    <div class="contact-icons">
+                        <a href="https://www.instagram.com/minderrida/"><img src="assets/img/IG.svg" alt="Instagram icon"></a>
+                        <a href="https://www.linkedin.com/in/ge-you/"><img src="assets/img/LinkedIn.svg" alt="LinkedIn icon"></a></div>
+                </div>
+            </form>
+        </div>
+            </div>
+    </div>
+    <div class="bottom-nav">
+        <a href="#top" >Back to Top</a>
+    </div>
+<!--footer-->
+        <footer class="copyright">© 2025 Ge You</footer> 
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/work_filter.js"></script>
+</body>
+</html>

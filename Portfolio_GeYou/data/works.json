@@ -1,0 +1,259 @@
+[
+  {
+    "type": "MG",
+    "mediaType": "video",
+    "workSrc": "assets/works/video/paradise_dream.mov",
+    "coverSrc": "assets/works/video/paradise_dream.jpg",
+    "width": "1920",
+    "height": "1080",
+    "title": "Lyric Video: Daydreaming",
+    "skillTag": [
+      "After Effects"
+    ],
+    "des": "Commissioned lyric video production for a collaborative music project released on 网易云音乐 (NetEase Cloud Music)",
+    "order": 1
+  },
+  {
+    "type": "MG",
+    "mediaType": "video",
+    "workSrc": "assets/works/video/blood_sweat_tears.mov",
+    "coverSrc": "assets/works/video/blood_sweat_tears.jpg",
+    "width": 1280,
+    "height": 720,
+    "title": "Creative Editing: Blood Sweat Tears",
+    "skillTag": [
+      "After Effects"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 2
+  },
+  {
+    "type": "MG",
+    "mediaType": "video",
+    "workSrc": "assets/works/video/cypher_killer.mp4",
+    "coverSrc": "assets/works/video/cypher_killer.jpg",
+    "width": 1280,
+    "height": 720,
+    "title": "Creative Editing: Blood Sweat Tears",
+    "skillTag": [
+      "After Effects"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 3
+  },
+  {
+    "type": "MG",
+    "mediaType": "video",
+    "workSrc": "assets/works/video/daechwita.mp4",
+    "coverSrc": "assets/works/video/daechwita.jpg",
+    "width": 1080,
+    "height": 1080,
+    "title": "Creative Editing: Daechwita",
+    "skillTag": [
+      "After Effects"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 4
+  },
+  {
+    "type": "MG",
+    "mediaType": "video",
+    "workSrc": "assets/works/video/paradise_lost.mp4",
+    "coverSrc": "assets/works/video/paradise_lost.jpg",
+    "width": 1920,
+    "height": 1080,
+    "title": "Creative Editing: Paradise Lost",
+    "skillTag": [
+      "After Effects"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 5
+  },
+  {
+    "type": "3D",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/3D/church.png"
+    ],
+    "alt": [
+      "3D Work Church"
+    ],
+    "width": [
+      4880
+    ],
+    "height": [
+      3400
+    ],
+    "title": "Church Scene",
+    "skillTag": [
+      "Blender"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 6
+  },
+  {
+    "type": "3D",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/3D/glass_menagerie.jpeg"
+    ],
+    "alt": [
+      "3D Work glass menagerie"
+    ],
+    "width": [
+      1440
+    ],
+    "height": [
+      1440
+    ],
+    "title": "Glass Menagerie",
+    "skillTag": [
+      "Blender"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 7
+  },
+  {
+    "type": "3D",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/3D/pc.jpeg"
+    ],
+    "alt": [
+      "3D Work PC Scene"
+    ],
+    "width": [
+      1080
+    ],
+    "height": [
+      1080
+    ],
+    "title": "PV Scene",
+    "skillTag": [
+      "Blender"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 8
+  },
+  {
+    "type": "3D",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/3D/rifle1.png",
+      "assets/works/3D/rifle2.png"
+    ],
+    "alt": [
+      "3D Work rifle",
+      "3D Work rifle"
+    ],
+    "width": [
+      5760,
+      5760
+    ],
+    "height": [
+      3200,
+      3200
+    ],
+    "title": "Rifle",
+    "skillTag": [
+      "Blender"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 9
+  },
+  {
+    "type": "GD",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/generalGraphics/jw.jpeg"
+    ],
+    "alt": [
+      "Graphic Design Work Juice WRLD"
+    ],
+    "width": [
+      3936
+    ],
+    "height": [
+      1412
+    ],
+    "title": "Creative Design: Juice WRLD theme",
+    "skillTag": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 10
+  },
+  {
+    "type": "GD",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/generalGraphics/book1.jpeg"
+    ],
+    "alt": [
+      "Book Cover"
+    ],
+    "width": [
+      2180
+    ],
+    "height": [
+      1389
+    ],
+    "title": "Book Cover",
+    "skillTag": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 11
+  },
+  {
+    "type": "GD",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/generalGraphics/bookcover.jpeg"
+    ],
+    "alt": [
+      "Book Cover"
+    ],
+    "width": [
+      2180
+    ],
+    "height": [
+      1389
+    ],
+    "title": "Book Cover",
+    "skillTag": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "des": "This is a description placeholder.",
+    "order": 12
+  }, 
+  {
+    "type": "WD",
+    "mediaType": "image",
+    "workSrc": [
+      "assets/works/webDesign/WD01.png"
+    ],
+    "alt": [
+      "Web Design Project"
+    ],
+    "width": [
+      1280
+    ],
+    "height": [
+      1024
+    ],
+    "title": "Web Design Project",
+    "skillTag": [
+      "Html",
+      "CSS",
+      "JavaScript"
+    ],
+    "des": "A web design project showcasing ....",
+    "order": 13
+  }
+  
+
+]
